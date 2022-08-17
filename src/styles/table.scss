@@ -1,0 +1,63 @@
+.table-container {
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    margin: 3px 0 10px 0;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 30%);
+    border-radius: 0 0 5px 5px;
+
+    .no-data-table {
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        padding: 10px;
+        border-collapse: collapse;
+
+        input {
+            width: 16px;
+            height: 16px;
+            outline: none;
+            &:checked {
+                box-shadow: 0 0 5px 0 dodgerblue;
+            }
+        }
+
+        thead {
+            text-align: left;
+            height: 40px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            color: rgba(0, 0, 0, 0.7);
+
+            tr {
+                background-color: rgba(30, 144, 255, 0.4);
+
+                th {
+                    padding-left: 10px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+        tbody {
+            tr {
+                height: 40px;
+
+                &:nth-child(odd) {
+                    background-color: rgba(30, 144, 255, 0.15);
+                }
+
+                td {
+                    padding-left: 10px;
+
+                    &.center {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
