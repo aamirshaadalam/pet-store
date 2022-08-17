@@ -87,6 +87,14 @@ This folder contains all the fonts used in the application.
 
 This folder contains all the styling files for the application. I have created one file per component so that it is easier to maintain.
 
+#### API Folder
+
+##### Path: `api`
+
+This folder contains the JSON data file used by the `json-server`. The `json-server` makes use of the `db.json` file while the `db-bkp.json` is a backup of `db.json` file.
+
+> The _`server.js`_ file in the root folder contains the _`json-server`_ configurations.
+
 ## Unit Tests
 
-As writing of unit tests was optional, I have not written the unit tests for all the components. However, I have included the unit tests for `App.js`. The test can be executed using the command: `yarn test`
+As the writing of the unit tests was optional, I have not written the unit tests for all the components. However, I have included the unit tests for `App.js`. The tests can be executed using the command: `yarn test`
