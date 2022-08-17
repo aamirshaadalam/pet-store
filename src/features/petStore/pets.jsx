@@ -61,8 +61,8 @@ export default function Pets() {
   const fetchPetList = useCallback(() => {
     dispatch(
       fetchPets({
-        pageSize,
-        pageNumber,
+        start: (pageNumber - 1) * pageSize,
+        limit: pageSize,
       })
     ).then((response) => {
       if (response) {
@@ -99,7 +99,15 @@ export default function Pets() {
   }
 
   function onDeleteClick(pet) {
-    dispatch(deletePet(pet.id));
+    dispatch(deletePet(pet.id)).then((response) => {
+      const { code, message } = response.payload;
+
+      if (code >= 400) {
+        toast.error(`Error deleting pet! ${message}`);
+      } else if (code >= 200 && code < 300) {
+        toast.success(`Pet deleted successfully`);
+      }
+    });
   }
 
   return (
