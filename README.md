@@ -86,3 +86,7 @@ This folder contains all the fonts used in the application.
 ##### Path: `src/styles`
 
 This folder contains all the styling files for the application. I have created one file per component so that it is easier to maintain.
+
+## Unit Tests
+
+As writing of unit tests was optional, I have not written the unit tests for all the components. However, I have included the unit tests for `App.js`. The test can be executed using the command: `yarn test`
