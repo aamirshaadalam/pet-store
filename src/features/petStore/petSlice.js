@@ -5,22 +5,16 @@ const baseURL = 'http://localhost:3001/v1';
 
 export const fetchPets = createAsyncThunk('pets/fetchPets', async (pagination, { rejectWithValue }) => {
   try {
-    const { pageSize, pageNumber } = pagination;
+    const { start, limit } = pagination;
 
-    let query = '';
-    if (pageSize && pageNumber && pageSize > 0 && pageNumber > 0) {
-      if (pageSize > 100) {
-        return rejectWithValue({
-          code: 400,
-          message: 'Limit exceeded the allowed value. Please provide a number less than or equal to 100',
-        });
-      }
-
-      query = `start=${(pageNumber - 1) * pageSize}&limit=${pageSize}`;
-    } else {
-      query = `start=${0}&limit=${10}`;
+    if (limit > 100) {
+      return rejectWithValue({
+        code: 400,
+        message: 'Limit exceeded the allowed value. Please provide a number less than or equal to 100',
+      });
     }
 
+    const query = `start=${start}&limit=${limit}`;
     const response = await axios.get(`${baseURL}/pets?${query}`);
     return {
       data: response.data,

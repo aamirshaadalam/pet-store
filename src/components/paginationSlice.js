@@ -16,7 +16,7 @@ export const paginationSlice = createSlice({
   reducers: {
     setPageSize: (state, { payload }) => {
       const { pageSize } = payload;
-      state.pageSize = pageSize;
+      state.pageSize = parseInt(pageSize, 10);
       state.currentPage = 1;
     },
     setCurrentPage: (state, { payload }) => {
