@@ -1,0 +1,15 @@
+.busy-indicator {
+    width: 40px;
+    height: 40px;
+    border-top: 2px solid dodgerblue;
+    border-right: 2px solid dodgerblue;
+    margin: 20% auto;
+    border-radius: 50%;
+    animation: spinner 0.6s linear infinite;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}

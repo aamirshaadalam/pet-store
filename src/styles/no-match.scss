@@ -1,0 +1,22 @@
+.no-match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+
+    i {
+        color: #f0ad4e;
+        font-size: 70px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .nav-text {
+            margin: 0px 10px;
+        }
+    }
+}
