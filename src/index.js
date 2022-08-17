@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { store } from './store';
 import App from './App';
-import NoMatch from './components/NoMatch';
+import NoMatch from './components/noMatch';
 import Home from './features/petStore/home';
 import Pets from './features/petStore/pets';
 import Pet from './features/petStore/pet';
