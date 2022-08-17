@@ -4,254 +4,294 @@
       "id": 1,
       "category": "Cat",
       "quantity": 1,
-      "name": "Persian"
+      "name": "Persian",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Pumiforme.JPG"
     },
     {
       "id": 2,
+      "name": "Maine Coon",
       "category": "Cat",
-      "quantity": 1,
-      "name": "Maine Coon"
+      "quantity": "1",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Felis_catus-cat_on_snow.jpg"
     },
     {
       "id": 3,
       "category": "Cat",
       "quantity": 1,
-      "name": "British Shorthair"
+      "name": "British Shorthair",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Domestic_cat_cropped.jpg"
     },
     {
       "id": 4,
+      "name": "Siamese",
       "category": "Cat",
-      "quantity": 1,
-      "name": "Siamese"
+      "quantity": "1",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/June_odd-eyed-cat_cropped.jpg"
     },
     {
       "id": 5,
+      "name": "Bengal",
       "category": "Cat",
-      "quantity": 1,
-      "name": "Bengal"
+      "quantity": "1",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tony_senior_cat_6-6-22.jpg"
     },
     {
       "id": 6,
       "category": "Cat",
       "quantity": 1,
-      "name": "Sphynx"
+      "name": "Sphynx",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Pumiforme.JPG"
     },
     {
       "id": 7,
+      "name": "Ragdoll",
       "category": "Cat",
-      "quantity": 1,
-      "name": "Ragdoll"
+      "quantity": "1",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Felis_catus-cat_on_snow.jpg"
     },
     {
       "id": 8,
+      "name": "Munchkin",
       "category": "Cat",
-      "quantity": 1,
-      "name": "Munchkin"
+      "quantity": "1",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Domestic_cat_cropped.jpg"
     },
     {
       "id": 9,
       "category": "Cat",
       "quantity": 1,
-      "name": "Scottish Fold"
+      "name": "Scottish Fold",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/June_odd-eyed-cat_cropped.jpg"
     },
     {
       "id": 10,
       "category": "Cat",
       "quantity": 1,
-      "name": "Norwegian Forest"
+      "name": "Norwegian Forest",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tony_senior_cat_6-6-22.jpg"
     },
     {
       "id": 11,
       "category": "Cat",
       "quantity": 1,
-      "name": "Siberian"
+      "name": "Siberian",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Pumiforme.JPG"
     },
     {
       "id": 12,
       "category": "Cat",
       "quantity": 1,
-      "name": "Turkish Angora"
+      "name": "Turkish Angora",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Felis_catus-cat_on_snow.jpg"
     },
     {
       "id": 13,
       "category": "Cat",
       "quantity": 1,
-      "name": "Birman"
+      "name": "Birman",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Domestic_cat_cropped.jpg"
     },
     {
       "id": 14,
       "category": "Cat",
       "quantity": 1,
-      "name": "Himalayan"
+      "name": "Himalayan",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/June_odd-eyed-cat_cropped.jpg"
     },
     {
       "id": 15,
       "category": "Cat",
       "quantity": 1,
-      "name": "Ragamuffin"
+      "name": "Ragamuffin",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tony_senior_cat_6-6-22.jpg"
     },
     {
       "id": 16,
       "category": "Dog",
       "quantity": 1,
-      "name": "Bulldog"
+      "name": "Bulldog",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Sled_dog_Groenlandia_buiobuione.jpg"
     },
     {
       "id": 17,
       "category": "Dog",
       "quantity": 1,
-      "name": "German Shepherd"
+      "name": "German Shepherd",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/11-Peruvian_Hairless_Dog-nX-6.jpg"
     },
     {
       "id": 18,
       "category": "Dog",
       "quantity": 1,
-      "name": "Labrador Retriever"
+      "name": "Labrador Retriever",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sled_dog_Greenlander_Ilulissat_buiobuione.jpg"
     },
     {
       "id": 19,
       "category": "Dog",
       "quantity": 1,
-      "name": "Golden Retriever"
+      "name": "Golden Retriever",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chinese_Chongqing_Dog_R%C3%BCde.jpg"
     },
     {
       "id": 20,
       "category": "Dog",
       "quantity": 1,
-      "name": "Poodle"
+      "name": "Poodle",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dog_%28Canis_lupus_familiaris%29_%287%29.jpg"
     },
     {
       "id": 21,
       "category": "Dog",
       "quantity": 1,
-      "name": "Siberian Husky"
+      "name": "Siberian Husky",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Sled_dog_Groenlandia_buiobuione.jpg"
     },
     {
       "id": 22,
       "category": "Dog",
       "quantity": 1,
-      "name": "French Bulldog"
+      "name": "French Bulldog",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/11-Peruvian_Hairless_Dog-nX-6.jpg"
     },
     {
       "id": 23,
       "category": "Dog",
       "quantity": 1,
-      "name": "Pomeranian"
+      "name": "Pomeranian",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sled_dog_Greenlander_Ilulissat_buiobuione.jpg"
     },
     {
       "id": 24,
       "category": "Dog",
       "quantity": 1,
-      "name": "Airedale Terrier"
+      "name": "Airedale Terrier",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chinese_Chongqing_Dog_R%C3%BCde.jpg"
     },
     {
       "id": 25,
       "category": "Dog",
       "quantity": 1,
-      "name": "Pug"
+      "name": "Pug",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dog_%28Canis_lupus_familiaris%29_%287%29.jpg"
     },
     {
       "id": 26,
+      "name": "Great Dane",
       "category": "Dog",
-      "quantity": 1,
-      "name": "Great Dane"
+      "quantity": "4",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Sled_dog_Groenlandia_buiobuione.jpg"
     },
     {
       "id": 27,
       "category": "Dog",
       "quantity": 1,
-      "name": "Yorkshire Terrier"
+      "name": "Yorkshire Terrier",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/11-Peruvian_Hairless_Dog-nX-6.jpg"
     },
     {
       "id": 28,
       "category": "Dog",
       "quantity": 1,
-      "name": "Afghan Hound"
+      "name": "Afghan Hound",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sled_dog_Greenlander_Ilulissat_buiobuione.jpg"
     },
     {
       "id": 29,
       "category": "Dog",
       "quantity": 1,
-      "name": "Chihuahua"
+      "name": "Chihuahua",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chinese_Chongqing_Dog_R%C3%BCde.jpg"
     },
     {
       "id": 30,
       "category": "Dog",
       "quantity": 1,
-      "name": "Boxer"
+      "name": "Boxer",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dog_%28Canis_lupus_familiaris%29_%287%29.jpg"
     },
     {
       "id": 31,
       "category": "Bird",
       "quantity": 1,
-      "name": "Cockatiel"
+      "name": "Cockatiel",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Female_house_sparrow_at_Kodai.jpg"
     },
     {
       "id": 32,
       "category": "Bird",
       "quantity": 1,
-      "name": "Lovebird"
+      "name": "Lovebird",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Alcedo_azurea_-_Julatten.jpg"
     },
     {
       "id": 33,
       "category": "Bird",
       "quantity": 1,
-      "name": "Finch"
+      "name": "Finch",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Crested_Tern_Tasmania_%28edit%29.jpg"
     },
     {
       "id": 34,
       "category": "Bird",
       "quantity": 1,
-      "name": "Yellow Canary"
+      "name": "Yellow Canary",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Landsvale.jpg"
     },
     {
       "id": 35,
       "category": "Bird",
       "quantity": 1,
-      "name": "Scarlet Macaw"
+      "name": "Scarlet Macaw",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Dendroica-aestiva-001.jpg"
     },
     {
       "id": 36,
+      "name": "White Cockatoo",
       "category": "Bird",
-      "quantity": 1,
-      "name": "White Cockatoo"
+      "quantity": "5",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Female_house_sparrow_at_Kodai.jpg"
     },
     {
       "id": 37,
       "category": "Bird",
       "quantity": 1,
-      "name": "Diamond Dove"
+      "name": "Diamond Dove",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Alcedo_azurea_-_Julatten.jpg"
     },
     {
       "id": 38,
       "category": "Bird",
       "quantity": 1,
-      "name": "Green-cheeked Parakeet"
+      "name": "Green-cheeked Parakeet",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Crested_Tern_Tasmania_%28edit%29.jpg"
     },
     {
       "id": 39,
       "category": "Bird",
       "quantity": 1,
-      "name": "Hyacinth Macaw"
+      "name": "Hyacinth Macaw",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Landsvale.jpg"
     },
     {
       "id": 40,
       "category": "Bird",
       "quantity": 1,
-      "name": "Grey Parrot"
+      "name": "Grey Parrot",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Dendroica-aestiva-001.jpg"
     },
     {
       "id": 41,
-      "category": "Fish",
-      "quantity": 1,
       "name": "Mickey Mouse Platy",
+      "category": "Fish",
+      "quantity": "2",
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Trigger_Fish-_aren%27t_they_beautiful%3F_%2816257963329%29.jpg"
     },
     {
       "id": 42,
-      "category": "Fish",
-      "quantity": 1,
       "name": "Guppy",
+      "category": "Fish",
+      "quantity": "1",
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Lionfish-_beautiful_but_deadly%21_%2815824125773%29.jpg"
     },
     {
@@ -284,9 +324,9 @@
     },
     {
       "id": 47,
-      "category": "Fish",
-      "quantity": 1,
       "name": "Panda Corydoras",
+      "category": "Fish",
+      "quantity": "3",
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Lionfish-_beautiful_but_deadly%21_%2815824125773%29.jpg"
     },
     {
